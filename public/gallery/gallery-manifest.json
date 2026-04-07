@@ -1,1 +1,161 @@
-{}
+{
+  "services": {
+    "lawn-mowing-maintenance": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "lawn-fertilization-weed-control": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "lawn-aeration-overseeding": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "sod-installation": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "artificial-turf-installation": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "lawn-dethatching": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "seasonal-lawn-cleanups": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "garden-bed-design-installation": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "plant-shrub-tree-installation": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "hedge-shrub-trimming": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "mulching-decorative-rock": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "seasonal-annual-planting": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "tree-trimming-removal": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "patio-design-installation": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "walkway-pathway-installation": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "retaining-wall-construction": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "fence-installation": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "deck-construction": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "outdoor-steps-staircase": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "outdoor-kitchen-fire-pit": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "pergola-shade-structures": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "landscape-lighting": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "stamped-decorative-concrete": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "lot-yard-grading": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "bobcat-skid-steer-services": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "french-drain-drainage": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "downspout-surface-water": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "sprinkler-system-installation": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "irrigation-repair-winterization": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "smart-irrigation-controllers": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    },
+    "full-yard-landscaping": {
+      "hasImages": false,
+      "images": [],
+      "count": 0
+    }
+  },
+  "allImages": [],
+  "generatedAt": "2026-04-07T08:13:07.841Z"
+}

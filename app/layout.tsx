@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, DM_Sans, Geist } from "next/font/google";
+import { Cormorant_Garamond, DM_Sans } from "next/font/google";
+import { Providers } from "./providers";
 import "./globals.css";
-import { cn } from "@/lib/utils";
-
-const geist = Geist({subsets:['latin'],variable:'--font-sans'});
 
 const cormorantGaramond = Cormorant_Garamond({
   subsets: ["latin"],
@@ -21,8 +19,8 @@ const dmSans = DM_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "[PLACEHOLDER] — Calgary Landscaping",
-  description: "[PLACEHOLDER] Premium landscaping services in Calgary, Alberta.",
+  title: "Taha Landscaping — Calgary",
+  description: "Premium landscaping services in Calgary, Alberta. Taha Landscaping.",
 };
 
 export default function RootLayout({
@@ -31,9 +29,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={cn(cormorantGaramond.variable, dmSans.variable, "font-sans", geist.variable)}>
+    <html lang="en" className={`${cormorantGaramond.variable} ${dmSans.variable}`}>
       <body className="antialiased">
-        {children}
+        {/* GA4 placeholder */}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
