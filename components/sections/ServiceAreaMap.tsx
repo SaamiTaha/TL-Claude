@@ -45,8 +45,16 @@ export function ServiceAreaMap() {
         fillOpacity: 0.15,
         weight: 2,
       }).addTo(map);
+
+      // Constrain Leaflet z-index to stay below navbar (z-50 = 50*4px)
+      const style = document.createElement("style");
+      style.textContent = `
+        .leaflet-pane { z-index: 1 !important; }
+        .leaflet-control { z-index: 2 !important; }
+      `;
+      document.head.appendChild(style);
     });
   }, []);
 
-  return <div ref={mapContainer} className="w-full h-full" />;
+  return <div ref={mapContainer} className="w-full h-full relative z-10" />;
 }
