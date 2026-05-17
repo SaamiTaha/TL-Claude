@@ -1,16 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-
-const GALLERY_IMAGES = [
-  { src: "/gallery/full-yard-landscaping/calgary-backyard-transformation-1.jpg", alt: "Calgary full yard landscaping transformation by Taha Landscaping" },
-  { src: "/gallery/patio-design-installation/calgary-natural-stone-patio.jpg", alt: "Calgary natural stone patio installation by Taha Landscaping" },
-  { src: "/gallery/retaining-wall-construction/calgary-retaining-wall-project.jpg", alt: "Calgary retaining wall construction by Taha Landscaping" },
-  { src: "/gallery/garden-bed-design-installation/calgary-garden-bed-design.jpg", alt: "Calgary garden bed design and planting by Taha Landscaping" },
-  { src: "/gallery/deck-construction/calgary-composite-deck-build.jpg", alt: "Calgary composite deck construction by Taha Landscaping" },
-  { src: "/gallery/sod-installation/calgary-sod-installation-project.jpg", alt: "Calgary sod installation by Taha Landscaping" },
-  { src: "/gallery/landscape-lighting/calgary-landscape-lighting-install.jpg", alt: "Calgary landscape lighting installation by Taha Landscaping" },
-  { src: "/gallery/fence-installation/calgary-cedar-fence-install.jpg", alt: "Calgary cedar fence installation by Taha Landscaping" },
-];
+import { PORTFOLIO_STRIP_IMAGES } from "@/lib/image-references";
 
 export function PortfolioStrip() {
   return (
@@ -28,7 +18,7 @@ export function PortfolioStrip() {
       </div>
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-14">
-        {GALLERY_IMAGES.map((img, i) => (
+        {PORTFOLIO_STRIP_IMAGES.map((img, i) => (
           <div
             key={i}
             className="relative aspect-[4/3] rounded-xl overflow-hidden group"
@@ -37,6 +27,7 @@ export function PortfolioStrip() {
               src={img.src}
               alt={img.alt}
               fill
+              sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
               className="object-cover group-hover:scale-105 transition-transform duration-300"
             />
           </div>

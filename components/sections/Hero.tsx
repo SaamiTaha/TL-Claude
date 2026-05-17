@@ -6,7 +6,7 @@ export function Hero() {
     <section className="relative h-[calc(100vh-72px)] overflow-hidden flex items-center justify-center">
       {/* Background */}
       <Image
-        src="/hero-calgary-landscaping.jpg"
+        src="/hero-calgary-landscaping.webp"
         alt="Premium Calgary landscaping project by Taha Landscaping"
         fill
         className="object-cover"

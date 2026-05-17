@@ -1,6 +1,9 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight, Phone } from "lucide-react";
+import posthog from "posthog-js";
 
 interface FullYardCTAProps {
   variant: "full" | "compact";
@@ -23,12 +26,14 @@ export function FullYardCTA({ variant }: FullYardCTAProps) {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
             <Link
               href="/services/full-yard-landscaping-calgary"
+              onClick={() => posthog.capture("full_yard_cta_clicked", { variant: "compact" })}
               className="inline-flex items-center gap-2 bg-brand-green text-white rounded-md px-7 py-3.5 text-sm uppercase tracking-wider font-sans hover:bg-brand-green/90 transition-colors"
             >
               Learn More <ArrowRight className="h-4 w-4" />
             </Link>
             <Link
               href="tel:4038606470"
+              onClick={() => posthog.capture("phone_call_clicked", { source: "full_yard_cta", variant: "compact" })}
               className="inline-flex items-center gap-2 bg-white/10 text-white border border-white/20 rounded-md px-7 py-3.5 text-sm uppercase tracking-wider font-sans hover:bg-white/20 transition-colors"
             >
               <Phone className="h-4 w-4" /> Call Now
@@ -43,7 +48,7 @@ export function FullYardCTA({ variant }: FullYardCTAProps) {
     <section className="relative py-20 overflow-hidden">
       {/* Full-width background image */}
       <Image
-        src="/gallery/full-yard-landscaping/calgary-full-yard-transformation.jpg"
+        src="/calgary-full-yard-transformation.webp"
         alt="Complete yard transformation in Calgary by Taha Landscaping"
         fill
         className="object-cover"
@@ -65,12 +70,14 @@ export function FullYardCTA({ variant }: FullYardCTAProps) {
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
             <Link
               href="/services/full-yard-landscaping-calgary"
+              onClick={() => posthog.capture("full_yard_cta_clicked", { variant: "full" })}
               className="inline-flex items-center gap-2 bg-brand-green text-white rounded-md px-7 py-3.5 text-sm uppercase tracking-wider font-sans hover:bg-brand-green/90 transition-colors"
             >
               Explore Full Yard Services <ArrowRight className="h-4 w-4" />
             </Link>
             <Link
               href="tel:4038606470"
+              onClick={() => posthog.capture("phone_call_clicked", { source: "full_yard_cta", variant: "full" })}
               className="inline-flex items-center gap-2 bg-white/10 text-white border border-white/20 rounded-md px-7 py-3.5 text-sm uppercase tracking-wider font-sans hover:bg-white/20 transition-colors"
             >
               <Phone className="h-4 w-4" /> Call Now

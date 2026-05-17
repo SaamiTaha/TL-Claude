@@ -14,6 +14,7 @@ import {
 import { ALL_SERVICES, FEATURED_SERVICE } from "@/lib/service-data";
 import { supabase } from "@/lib/supabase";
 import { Zap, Loader2 } from "lucide-react";
+import posthog from "posthog-js";
 
 interface ContactFormProps {
   variant?: "dark" | "light";
@@ -106,8 +107,24 @@ export function ContactForm({ variant = "dark", preselectedService }: ContactFor
     if (error) {
       setStatus("error");
       setErrorMsg("Something went wrong. Please call us at (403) 874-3690 instead.");
+      posthog.capture("quote_form_error", {
+        source_page: pathname,
+        service: service || "not specified",
+        error_message: error.message,
+      });
       return;
     }
+
+    posthog.identify(sanitizeText(email), {
+      name: sanitizeText(name),
+      email: sanitizeText(email),
+      phone: sanitizeText(phone),
+    });
+    posthog.capture("quote_requested", {
+      service: service || "not specified",
+      source_page: pathname,
+      has_message: message.trim().length > 0,
+    });
 
     router.push("/thank-you");
   }

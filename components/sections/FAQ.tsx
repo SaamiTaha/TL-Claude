@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { ChevronDown } from "lucide-react";
+import posthog from "posthog-js";
 
 interface FAQItem {
   question: string;
@@ -65,7 +66,13 @@ export function FAQ() {
           <div key={i}>
             <button
               type="button"
-              onClick={() => setOpenIndex(openIndex === i ? null : i)}
+              onClick={() => {
+                const isOpening = openIndex !== i;
+                setOpenIndex(isOpening ? i : null);
+                if (isOpening) {
+                  posthog.capture("faq_question_expanded", { question: item.question, question_index: i });
+                }
+              }}
               className="flex items-center justify-between w-full py-6 text-left group"
             >
               <span className="font-sans font-medium text-brand-text text-[17px] pr-8 group-hover:text-brand-green transition-colors">
@@ -110,6 +117,7 @@ export function FAQSchema() {
     <script
       type="application/ld+json"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      suppressHydrationWarning
     />
   );
 }

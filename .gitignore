@@ -39,3 +39,4 @@ next-env.d.ts
 # gallery images (store in Vercel Blob instead)
 public/gallery/**/*.{jpg,jpeg,png,webp,gif,avif,svg}
 !public/gallery/**/.gitkeep
+.env.local

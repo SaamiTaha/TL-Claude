@@ -4,6 +4,7 @@ import { useState, useCallback, useEffect } from "react";
 import Image from "next/image";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { MotionProvider, m, AnimatePresence, motionFeatures } from "@/lib/motion";
+import posthog from "posthog-js";
 
 interface GalleryImage {
   src: string;
@@ -85,7 +86,10 @@ export function GalleryGrid({ category }: GalleryGridProps) {
           <button
             key={img.src}
             type="button"
-            onClick={() => setSelectedIndex(i)}
+            onClick={() => {
+              setSelectedIndex(i);
+              posthog.capture("gallery_image_opened", { category: img.category, image_src: img.src });
+            }}
             className="block w-full rounded-xl overflow-hidden group"
           >
             <div className="relative aspect-[4/3]">

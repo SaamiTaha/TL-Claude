@@ -2,13 +2,14 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
 import { Navbar } from "@/components/layout/Navbar";
-import { ServiceGallery } from "@/components/sections/ServiceGallery";
+import { ServicePortfolioStrip } from "@/components/sections/ServicePortfolioStrip";
 import { FullYardCTA } from "@/components/sections/FullYardCTA";
 import { ContactSectionDark } from "@/components/sections/ContactSectionDark";
 import { Testimonials } from "@/components/sections/Testimonials";
 import { Shield, Clock, Zap, ChevronDown } from "lucide-react";
 import { ALL_SERVICES, CATEGORIES } from "@/lib/service-data";
 import { getServiceContent } from "@/lib/service-content";
+import { ServicePageTracker } from "@/components/tracking/ServicePageTracker";
 
 interface ServicePageProps {
   params: Promise<{ service: string }>;
@@ -56,6 +57,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
   return (
     <>
       <Navbar />
+      <ServicePageTracker service={service} category={categoryName} />
       <main>
         {/* ── Breadcrumb + Hero ── */}
         <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-10 pb-8">
@@ -120,11 +122,6 @@ export default async function ServicePage({ params }: ServicePageProps) {
           </div>
         </section>
 
-        {/* ── Gallery ── */}
-        <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-14">
-          <ServiceGallery categorySlug={categorySlug || "full-yard-landscaping"} />
-        </section>
-
         {/* ── Why Choose Us ── */}
         <section className="bg-brand-surface border-y border-brand-border">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-14">
@@ -187,6 +184,9 @@ export default async function ServicePage({ params }: ServicePageProps) {
             </div>
           </section>
         )}
+
+        {/* ── Portfolio Strip ── */}
+        <ServicePortfolioStrip categorySlug={categorySlug} categoryName={categoryName} />
 
         {/* ── Full Yard CTA ── */}
         <FullYardCTA variant="compact" />

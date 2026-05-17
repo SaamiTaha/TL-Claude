@@ -6,6 +6,7 @@ import Image from "next/image";
 import { Menu, X, Phone } from "lucide-react";
 import { MegaMenu } from "./MegaMenu";
 import { MotionProvider, m, AnimatePresence, motionFeatures } from "@/lib/motion";
+import posthog from "posthog-js";
 
 const NAV_LINKS = [
   { label: "Home", href: "/" },
@@ -76,6 +77,7 @@ export function Navbar() {
           <div className="flex items-center gap-5">
             <Link
               href="tel:4038606470"
+              onClick={() => posthog.capture("phone_call_clicked", { source: "navbar" })}
               className="flex items-center gap-2 text-brand-text text-sm hover:text-brand-green transition-colors"
             >
               <Phone className="h-4 w-4" />
@@ -145,7 +147,7 @@ export function Navbar() {
               >
                 <Link
                   href="tel:4038606470"
-                  onClick={() => setMobileOpen(false)}
+                  onClick={() => { setMobileOpen(false); posthog.capture("phone_call_clicked", { source: "navbar_mobile" }); }}
                   className="flex items-center gap-2 text-brand-text text-lg font-sans"
                 >
                   <Phone className="h-5 w-5" />
