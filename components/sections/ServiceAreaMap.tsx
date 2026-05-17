@@ -45,11 +45,6 @@ export function ServiceAreaMap() {
         fillOpacity: 0.15,
         weight: 2,
       }).addTo(map);
-
-      // Add center marker
-      L.marker([CALGARY_CENTER.lat, CALGARY_CENTER.lng])
-        .bindPopup("<b>Service Center</b><br>Calgary, Alberta")
-        .addTo(map);
     });
   }, []);
 
