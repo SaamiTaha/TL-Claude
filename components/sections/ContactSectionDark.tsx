@@ -59,7 +59,7 @@ export function ContactSectionDark({ flush }: ContactSectionDarkProps) {
                 </div>
                 <div>
                   <p className="text-white/40 font-sans text-xs uppercase tracking-wider">Location</p>
-                  <p className="text-white font-sans text-lg">Calgary, Alberta</p>
+                  <p className="text-white font-sans text-lg">515a 36 Ave NE<br />Calgary, AB T2E 6S3</p>
                 </div>
               </div>
               <div className="flex items-center gap-4 bg-white/5 rounded-md px-6 py-5 border border-white/10">
