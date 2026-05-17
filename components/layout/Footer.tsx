@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { CATEGORIES, FEATURED_SERVICE } from "@/lib/service-data";
 
 const COMPANY_LINKS = [
@@ -15,10 +16,13 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Logo & Tagline */}
           <div>
-            <div className="flex items-center gap-1">
-              <span className="font-bold tracking-tight text-white text-xl">TAHA</span>
-              <span className="font-light tracking-widest text-white text-xl">LANDSCAPING</span>
-            </div>
+            <Image
+              src="/images/logo-white.png"
+              alt="Taha Landscaping"
+              width={240}
+              height={60}
+              className="h-20 w-auto"
+            />
             <p className="text-white/60 text-[15px] mt-4 leading-relaxed">
               Calgary&apos;s most trusted landscaping company. Premium design, expert installation, and lasting craftsmanship for over 23 years.
             </p>

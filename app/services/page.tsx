@@ -30,7 +30,7 @@ export default function ServicesPage() {
             <p className="uppercase tracking-widest text-[13px] text-brand-terracotta font-sans">
               Our Services
             </p>
-            <h1 className="headline-mixed text-5xl md:text-6xl lg:text-7xl text-brand-text mt-4">
+            <h1 className="headline-mixed text-6xl md:text-7xl lg:text-8xl text-brand-text mt-4">
               Expert Landscaping <em>Services</em>
             </h1>
             <p className="text-brand-muted font-sans text-lg mt-6">
@@ -79,9 +79,11 @@ export default function ServicesPage() {
               <p className="text-brand-muted font-sans text-base max-w-2xl mb-10">
                 {cat.description}
               </p>
-              <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+              <div className="flex flex-wrap justify-center gap-5">
                 {cat.services.map((service) => (
-                  <ServiceCard key={service.slug} service={service} />
+                  <div key={service.slug} className="w-[calc(50%-10px)] md:w-[calc(33.333%-14px)] lg:w-[calc(25%-15px)]">
+                    <ServiceCard service={service} />
+                  </div>
                 ))}
               </div>
             </section>

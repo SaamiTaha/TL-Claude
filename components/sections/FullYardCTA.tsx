@@ -20,7 +20,7 @@ export function FullYardCTA({ variant }: FullYardCTAProps) {
           <p className="text-white/60 font-sans text-base mt-5 leading-relaxed max-w-xl mx-auto">
             Our full yard service covers every phase of the project. Grading, hardscaping, softscaping, irrigation, and everything in between.
           </p>
-          <div className="flex items-center justify-center gap-4 mt-8">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
             <Link
               href="/services/full-yard-landscaping-calgary"
               className="inline-flex items-center gap-2 bg-brand-green text-white rounded-md px-7 py-3.5 text-sm uppercase tracking-wider font-sans hover:bg-brand-green/90 transition-colors"
@@ -62,7 +62,7 @@ export function FullYardCTA({ variant }: FullYardCTAProps) {
           <p className="text-white/70 font-sans text-base mt-6 leading-relaxed">
             When Calgary homeowners want a property that commands attention, they choose Taha Landscaping. We handle every phase: site grading, drainage engineering, hardscape installation, softscape design, and irrigation systems. One team, one vision, one exceptional result.
           </p>
-          <div className="flex items-center justify-center gap-4 mt-8">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-8">
             <Link
               href="/services/full-yard-landscaping-calgary"
               className="inline-flex items-center gap-2 bg-brand-green text-white rounded-md px-7 py-3.5 text-sm uppercase tracking-wider font-sans hover:bg-brand-green/90 transition-colors"

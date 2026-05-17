@@ -3,9 +3,13 @@ import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { Footer } from "@/components/layout/Footer";
 import { ContactForm } from "./ContactForm";
 
-export function ContactSectionDark() {
+interface ContactSectionDarkProps {
+  flush?: boolean;
+}
+
+export function ContactSectionDark({ flush }: ContactSectionDarkProps) {
   return (
-    <section className="bg-brand-dark rounded-t-3xl">
+    <section className={`bg-brand-dark ${flush ? "" : "rounded-t-3xl"}`}>
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pt-20 pb-8">
         {/* Header */}
         <div className="text-center max-w-2xl mx-auto">

@@ -1,161 +1,1582 @@
 {
-  "services": {
-    "lawn-mowing-maintenance": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
+  "categories": {
+    "softscaping-garden-design": {
+      "hasImages": true,
+      "images": [
+        "009DC0BF-8493-41EA-9B58-2F95B2ADD3B2.JPG",
+        "0A80BDEC-2229-42DF-A3F5-CA7A3E1BC4A7.JPG",
+        "0BDF3C04-C8EF-4622-9D15-FDAA97313A6E.JPG",
+        "0D320616-1FEF-4D7C-8021-D2B1606C8DD5.JPG",
+        "101FAAB9-0BBB-4451-8F73-CE73BCC81A72.JPG",
+        "12908E65-443A-492E-8946-2706D150890D.JPG",
+        "1AAE8053-8F79-46EF-BC3C-F05E918D0772.JPG",
+        "1CD827E7-89C7-4DC1-B04E-C2836EF993E4.JPG",
+        "205561A4-8F04-4465-BC11-D682D7A742F6.JPG",
+        "2B406F1B-BDEB-47F1-8355-48642870A1E5.JPG",
+        "2B750FA7-F295-4EC9-A7E3-75FE8ED136F3.JPG",
+        "2F4A8E25-F2F5-4E14-96ED-A673EE0002DB.JPG",
+        "322BB29E-1141-45B6-9D3F-6AA32D9A19F0.JPG",
+        "333F0F8D-5345-41E2-9A0B-B603EBEC0241.JPG",
+        "3363A6E8-C37C-4BD4-9DEF-F2C2E38642F7.JPG",
+        "3836DC62-A947-4896-9070-99B2A798D97E.JPG",
+        "3D6DE164-33E5-40FA-A785-710E0B0B1CC9.JPG",
+        "3E0F51EF-9B85-4424-B339-CB25FC69FA19.JPG",
+        "417214F6-207F-4101-88B5-546FEDAABA90.JPG",
+        "41CA3AD7-68D8-4EF6-B2CC-B7BF7F66344B.JPG",
+        "4527D721-A639-442A-A1BA-73955B224F05.JPG",
+        "4EB0B6C9-A504-4C61-BFD4-CA731BBE9C0A.JPG",
+        "541C4261-F0E6-4A17-8D85-D41E8208FB9B.JPG",
+        "55321E68-AF57-45ED-A265-F578416526A1.JPG",
+        "5A986277-65FE-48EA-92D3-C11B9B0D73C0.JPG",
+        "5AAEC594-5DBD-4CDA-870D-AD8A6598BE4A.JPG",
+        "5B9A728E-697B-4109-B103-2085192B0A76.JPG",
+        "5CF4C221-2B54-4208-B44A-76ECD5261FF5.JPG",
+        "5F814A10-330B-4854-AB7C-79D074F5B027.JPG",
+        "600D01F4-7E83-407C-AF93-8EF8DD8EA28B.JPG",
+        "6775BDF4-7472-43E7-9FCC-F3EB23A0F293.JPG",
+        "6E266E65-EDCC-4544-A1A0-74D4139BDC65.JPG",
+        "720BF286-2051-4090-B781-FA948B605E30.JPG",
+        "738C657A-2D4C-4908-B575-826798793F5B.JPG",
+        "7A542B1C-8D96-48B6-8EF4-E701613C235B.JPG",
+        "7BB3ACD8-74EC-4AD7-AB63-988C847041BE.JPG",
+        "908868C7-16A9-4FF5-A351-41D49BC3C9E1.JPG",
+        "92749E30-1552-4C01-AB51-4E08AB53418A.JPG",
+        "AA482C9E-2FF5-4FCC-B0AF-E8164FE1B428.JPG",
+        "AE8E07A0-25CE-4E77-B850-D147B33E29DA.JPG",
+        "AEEC878F-82F8-49F7-B97A-DF5750F30597.JPG",
+        "B06A2E0E-7874-45FA-9CE8-F49AC9969C92.JPG",
+        "B13807C4-45E0-4169-AEEE-D2012575D4CF.JPG",
+        "B2B6AE44-61E2-4EE4-9505-CF1C324CF1C8.JPG",
+        "B6A6B9A5-CF16-449E-8608-9229FEC19458.JPG",
+        "BF614C63-B238-400C-9C05-0F613D63D3D9.JPG",
+        "C36018A3-76CB-4AD3-8AD2-51FE3D4ED89F.JPG",
+        "C5B63CC8-438F-4790-9BC0-6043CB792BF5.JPG",
+        "CA7B7D46-0C0A-4EFA-A536-DBD14607E5F8.JPG",
+        "CC34BBBF-382D-46C5-9033-0B365D05A507.JPG",
+        "D32092C3-502A-4F29-A495-565EC07AF941.JPG",
+        "D666D106-2B0B-4E2B-98FB-E42D1A3A787E.JPG",
+        "E9CBCE8B-65F9-48D8-BD53-59322F11D2F8.JPG",
+        "ECA5A5F4-77FB-4F00-B2E6-48BADEFC39BA.JPG",
+        "EDB06AE8-D652-4750-937D-9CFA09CF968F.JPG",
+        "F8ED84EC-3E5E-4C55-9B37-00956EEDCAA3.JPG",
+        "FCAA673B-6DC9-4477-A204-52E9D4CF9C6A.JPG",
+        "optimized-hundred@1920.webp",
+        "optimized-ninety-four@1920.webp"
+      ],
+      "count": 59
     },
-    "lawn-fertilization-weed-control": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
+    "hardscaping-outdoor-living": {
+      "hasImages": true,
+      "images": [
+        "03F4B17C-2C7E-421D-BE42-D896B0407287.JPG",
+        "04C99D5F-D03C-4596-B4B2-7CE6ABD536B5.JPG",
+        "0678EBD1-7F6F-417C-99F0-CD37A0510BD5.JPG",
+        "09E6F5BC-A7B5-4176-A3CE-F40C46C9A505.JPG",
+        "0A18DBBC-B981-4383-870F-0577A4F9CABD.JPG",
+        "0AF8E6D2-9069-4FF0-B1B9-534E3442570F.JPG",
+        "0C654206-13E3-4DB8-AB69-0315247B0A04.JPG",
+        "13DEB534-3FA0-428D-BFB5-1DF827FA6859.JPG",
+        "1716D4EB-59A3-45D1-AD10-904A4827F93D.JPG",
+        "1962337B-B3A9-4DBB-B35F-37BC233F8EF2.JPG",
+        "1DA75733-D3D8-41A5-9F5E-FCD29E659473.JPG",
+        "1EC63A95-6EC1-430A-8517-DEF09BE6FF2C.JPG",
+        "2038C1BF-4B9B-4E7F-9E88-1D340EFB1470.JPG",
+        "20A1A32A-FBE4-4904-9234-A0F9C2AAD069.JPG",
+        "24D558B2-6E24-4C52-8C5E-679A86AE124B.JPG",
+        "2852DF79-AA98-4B51-A44F-B2A59B93CBCF.JPG",
+        "2C9B6A68-9D5B-4C06-9ECE-C9CF3221EC8E.JPG",
+        "2F15ADDA-298C-4F1A-B3AD-1B8D4FF0EADC.JPG",
+        "3AE9D96C-84BB-4E79-BD76-5CC5D66F9E33.JPG",
+        "3D04C624-C2A0-4051-8C99-76B5AD65BA14.JPG",
+        "3E162537-4B91-47A6-BF52-84049C12F959.JPG",
+        "40E4D8B7-72B2-426C-9D6A-91B3D6AD7558.JPG",
+        "46149F63-BCCF-4D8E-A80B-25D147E861F4.JPG",
+        "47DC9DDD-822F-4B94-9FE8-94C24EDF2062.JPG",
+        "4BA6675C-A5B5-4808-91C6-28EA23967CF3.JPG",
+        "4D0061C8-A1E5-4DFA-8242-887FDE369D73.JPG",
+        "4F970ABD-7BB2-41E4-93E4-4BD3BAC0B9FB.JPG",
+        "4FB02742-AFB3-4066-8B9D-2CCE52C75761.JPG",
+        "511682C9-7F58-49EB-B267-9E6181A471C5.JPG",
+        "52449618-6EDC-4F93-805E-94844278FBC5.JPG",
+        "527BE456-754F-498D-B438-000A801A7B2E.JPG",
+        "52CB8F85-6532-4A3E-881E-2BEC30607D60.JPG",
+        "53D0D07B-90DB-47B7-B0E0-88398B8A9739.JPG",
+        "5628226D-6487-495B-9BFD-872C8C70D33F.JPG",
+        "5B1DF15A-A05F-447A-AEC1-37B387D1A0D4.JPG",
+        "5C70F2EA-61DE-47D3-8654-0BC21370F92B.JPG",
+        "61F5345F-DFA5-46BF-ADD5-010F53954D9A.JPG",
+        "65935ECD-C624-4C5F-8EEA-4EBFEDA823E0.JPG",
+        "664B3A02-0F12-4B34-9870-098366E491E5.JPG",
+        "696224B9-8A77-49AC-8759-DA06352A884E.JPG",
+        "6B37023A-4B69-4959-BDFF-6D1C0530C2B9.JPG",
+        "6B56AE38-3A6A-4400-83A8-8EE7AB84280B.JPG",
+        "6BCFFF2F-5D86-48D4-8A29-EBB611B1464E.JPG",
+        "6C5E80A1-77CF-434F-92A0-56C89E3F49C3.JPG",
+        "6E266E65-EDCC-4544-A1A0-74D4139BDC65.JPG",
+        "72D9CD86-6830-4220-AFAC-5CDD33F77361.JPG",
+        "76A577CE-C5B5-4755-B63E-65D175D0A411.JPG",
+        "789F2EF4-A28F-4AC9-9C9F-E8855CFCCCA2.JPG",
+        "7CA1878E-A824-4863-86C4-DD436DE27933.JPG",
+        "7D5C6BDA-1C50-4723-9654-EA31E60CD53C.JPG",
+        "7D7B09AA-FF70-41EB-B5F2-EFC560555935.JPG",
+        "7DAE4F5F-FECA-423F-94EB-D65F82FF1738.JPG",
+        "7F1C0FA2-1ED2-4F3A-B9EE-55E81115654E.JPG",
+        "7F36245C-05C6-4A1C-996D-2F8B47FB25EE.JPG",
+        "80E01691-7095-4BCB-9F09-7A6FDD7D470C.JPG",
+        "82E33BB4-B243-4B27-B132-2A00CF11DDBF.JPG",
+        "83476CDD-EE0C-4861-8F47-D0C403A32D7C.JPG",
+        "85C87791-9961-4788-9244-722969B4DA32.JPG",
+        "89E15794-6809-471D-86D1-C3D1D0365126.JPG",
+        "8EDD1BD4-4916-4A8E-BF50-8E96265EFD41.JPG",
+        "8FA3CBD1-12C0-485D-84B4-BB29D0635F2D.JPG",
+        "908868C7-16A9-4FF5-A351-41D49BC3C9E1.JPG",
+        "91CAC642-C54A-40F5-9B10-CD5889825531.JPG",
+        "92ABDEFB-1C8E-43F9-AEE1-032E589E0586.JPG",
+        "9443E058-0B78-43DE-B709-9270182D00BD.JPG",
+        "9592E04A-1685-4A58-AC5F-260444A969FD.JPG",
+        "978A27F8-F866-4FAF-9DCB-A48DBE48719C.JPG",
+        "98C410ED-34C7-4866-98FF-35C1DAA6319C.JPG",
+        "9C2507C0-248B-4D6F-A119-B1B303A44F20.JPG",
+        "A1ACBF6B-B384-4FBE-859A-CD3D948396C6.JPG",
+        "A2018860-024B-45FF-8C43-30ADFCAF2DBE.JPG",
+        "B1A65352-CF7F-4D11-A627-E930E6116DA5.JPG",
+        "B31FB05D-CDC3-421C-860A-BF2FA7EAF2EB.JPG",
+        "B586F881-7A94-46CD-BF5F-BE417E507D9D.JPG",
+        "B5888034-2E70-4ACF-BC32-CBE0DC3AF23D.JPG",
+        "BA48F192-C9DD-4622-B330-6B82F805C737.JPG",
+        "BB2AA2DB-8A76-4066-B5E7-4BE123EC5F43.JPG",
+        "BF7D9EED-5E9B-4E6F-BDCD-36370BD2E8BE.JPG",
+        "C2852D2C-C36A-4D0B-86A5-3BF64A41373A.JPG",
+        "C2DA5A13-CE40-4F73-AEFA-3B6048A088D4.JPG",
+        "C32686F1-36EA-4415-A17D-DA96BE3168F7.JPG",
+        "C585C22C-89FD-479B-98E6-B6F7636A59C0.JPG",
+        "CBF71C1E-F197-4C01-80BB-49BEB0968BE5.JPG",
+        "CF613BEE-A980-4674-B9FD-A330343F13AB.JPG",
+        "CFFC566A-7138-47FC-9B25-0E5761311917.JPG",
+        "D03D486F-CD7D-48D7-9D78-25E961ED4012.JPG",
+        "D15CCDE0-71F5-4645-BF1B-AB282A24E7BA.JPG",
+        "D2F91093-3C57-473E-B26A-0BEFA8BEB0B5.JPG",
+        "DD47DEE7-7962-4468-B486-F97EA608F267.JPG",
+        "DD5314F9-678B-4240-A711-301CBE1DB9EA.JPG",
+        "E0CBBB1C-7F21-4DB3-9B0E-F4DB467B3396.JPG",
+        "E1B25816-8117-4A96-AE7E-59A06EB92F63.JPG",
+        "E3B6F23F-BE26-4696-BCE1-B6182ECB5F91.JPG",
+        "E54A4C66-E34D-43F2-8F83-E9CD4A2D0CFB.JPG",
+        "E55D06C8-2335-43DA-99BE-0770A39274E1.JPG",
+        "E689B713-36E2-4002-B59D-04255EE63456.JPG",
+        "E9AC44BF-8AD8-4039-9A3B-671E33BA21D9.JPG",
+        "E9CBCE8B-65F9-48D8-BD53-59322F11D2F8.JPG",
+        "F1ED7232-85A8-43D0-903F-76B62FC41294.JPG",
+        "F2162FDC-6E75-4E0C-AA24-CCC7B7625B9C.JPG",
+        "F64ED343-9C59-4B47-AA2E-4F8BA9258D1D.JPG",
+        "F6980EEA-A1D9-4FF7-A9B3-4F7F489942D9.JPG",
+        "FA6757ED-A21C-4B77-9030-3075D4AC8C3E.JPG",
+        "optimized-eighty-two@1920.jpg",
+        "optimized-fifty-five@1920.jpg",
+        "optimized-forty-two@1920.webp",
+        "optimized-forty@1920.jpg",
+        "optimized-thirty-eight@1920.jpg",
+        "optimized-thirty-five@1920.jpg",
+        "optimized-thirty-nine@1920.jpg",
+        "optimized-thirty-six@1920.webp",
+        "optimized-twenty-one@1920.webp",
+        "optimized-twenty-six@1920.jpg",
+        "optimized-twenty-three@1920.jpg"
+      ],
+      "count": 114
     },
-    "lawn-aeration-overseeding": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
+    "grading-drainage-irrigation": {
+      "hasImages": true,
+      "images": [
+        "0102C2C7-4FBB-4E80-A957-E98B0191D0DF.JPG",
+        "0BC7A923-B1FC-49AA-AE86-18C7709A6233.JPG",
+        "0F07FA6D-CC7D-4BD5-9F50-D0F12A6887A7.JPG",
+        "10B54200-0BE5-423C-8689-027922CFFCB1.JPG",
+        "1929DD97-C369-4CD1-AB8B-E3E5D05077AC.JPG",
+        "1A2EE371-5387-49FD-B862-3204B66EE9FA.JPG",
+        "1FCAB932-6CFA-43FE-B4DB-D3B28AC2005E.JPG",
+        "2161E6CD-87BF-4E3A-AFE3-C8B943FED736.JPG",
+        "21747841-F032-4989-BA67-E04659FC20F0.JPG",
+        "31695F02-86F0-4D51-A390-26D059EF50CA.JPG",
+        "37298093-250A-4C4E-9DA7-A96FC0BA1B30.JPG",
+        "3AE72818-9A43-4015-9A59-A54D586E0F3D.JPG",
+        "40C09B12-F91B-4946-9D7D-2D6E529A54EB.JPG",
+        "4D2B62C0-8448-47FE-BEB8-19263033D9D0.JPG",
+        "4FCC03AC-EA6E-44FE-AF7A-9FD0D3F692A1.JPG",
+        "5195CE13-DC21-41AD-9558-0370353D5B82.JPG",
+        "58B35F60-95C5-473C-B08C-BCBE4795114A.JPG",
+        "59DDF9BA-5AFA-46F0-8D32-06B284360DBC.JPG",
+        "5B1BB625-263F-4156-AD3D-BF6103A8134C.JPG",
+        "64388E9E-BC42-468C-B7D4-C9E4A0E7CF5B.JPG",
+        "697F527B-A05F-431C-82DE-74AFB4C4C64D.JPG",
+        "721D7BE5-2875-4441-BA7C-02D923C141AD.JPG",
+        "759B032E-1EEF-4455-82CD-69BDAB2636E1.JPG",
+        "7D738CEF-2F3C-4ED2-960A-308BFCF904FE.JPG",
+        "7F4D89BB-173F-425A-B161-D37B2995183C.JPG",
+        "80DC1A0D-5A74-4A5B-A5A7-607B7CA7CBD8.JPG",
+        "83F45A8E-AEAD-41D0-A245-9E899E4E04CB.JPG",
+        "86556B2F-02FF-4F56-AC20-DF26F10CC450.JPG",
+        "879B82B3-D87C-49F0-A02C-83C0C15D9975.JPG",
+        "8851BA7B-F45C-4E5C-9B41-BC23965A0768.JPG",
+        "986740A5-D6D8-4907-B07E-48EC347F0B5F.JPG",
+        "9C9F8445-4E31-46AD-A9DF-39268E4ED939.JPG",
+        "9ED981DF-1FAF-4976-8731-532C8360FC86.JPG",
+        "A6BA1E01-48F5-4BBE-8505-EF40E7B9287F.JPG",
+        "AA8E7355-CBB0-497D-AF38-9B99B2F8700B.JPG",
+        "ACCDA700-53FF-4871-9FD5-E3A721CA5B90.JPG",
+        "AD3E1D3F-F33C-45EB-A1AA-4810EC849F09.JPG",
+        "B85B1863-2FB1-40A1-A228-A346A98FFBA6.JPG",
+        "CDFDFA47-12F3-46F8-9B27-836EB2E7AFFC.JPG",
+        "CEA61F68-7244-40AA-81DC-B454D12FC488.JPG",
+        "D01275DB-CAC5-4C45-9491-C4BC638C73A5.JPG",
+        "E724D324-C72F-4697-B0A5-21E162EE953A.JPG",
+        "EA24B5AD-EB4D-46F7-A983-BBCD4AAEE1CA.JPG",
+        "EEA06770-6067-4D70-A3D3-50A7BDAA1DB0.JPG",
+        "F1463F99-A841-42D2-BA77-979362A22DFD.JPG",
+        "F2988A61-9BD5-420F-BA8E-6FAE4CA06333.JPG",
+        "F93701E0-9153-4BB9-9EF4-FCB3E4DA9F31.JPG",
+        "optimized-forty-one@1920.jpg"
+      ],
+      "count": 48
     },
-    "sod-installation": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "artificial-turf-installation": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "lawn-dethatching": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "seasonal-lawn-cleanups": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "garden-bed-design-installation": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "plant-shrub-tree-installation": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "hedge-shrub-trimming": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "mulching-decorative-rock": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "seasonal-annual-planting": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "tree-trimming-removal": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "patio-design-installation": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "walkway-pathway-installation": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "retaining-wall-construction": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "fence-installation": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "deck-construction": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "outdoor-steps-staircase": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "outdoor-kitchen-fire-pit": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "pergola-shade-structures": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "landscape-lighting": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "stamped-decorative-concrete": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "lot-yard-grading": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "bobcat-skid-steer-services": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "french-drain-drainage": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "downspout-surface-water": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "sprinkler-system-installation": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "irrigation-repair-winterization": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
-    },
-    "smart-irrigation-controllers": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
+    "calgary-lawn-services": {
+      "hasImages": true,
+      "images": [
+        "20180606_122034_IMG_0016.JPEG",
+        "20180606_122035_IMG_0017.JPEG",
+        "20180606_160614_IMG_0021.JPEG",
+        "20190822_123752.jpg",
+        "IMG_2328.jpeg",
+        "IMG_2329.jpeg",
+        "IMG_2330.jpeg",
+        "IMG_2331.jpeg",
+        "IMG_2333.jpeg",
+        "IMG_2334.jpeg",
+        "IMG_2335.jpeg",
+        "IMG_2336.jpeg",
+        "IMG_2337.jpeg",
+        "IMG_2338.jpeg",
+        "IMG_2339.jpeg",
+        "IMG_2340.jpeg",
+        "IMG_2398.jpeg",
+        "IMG_2400.jpeg",
+        "IMG_2424.jpeg",
+        "IMG_2664.jpeg",
+        "IMG_2665.jpeg",
+        "IMG_2666.jpeg",
+        "IMG_2773.jpeg",
+        "IMG_2774.jpeg",
+        "IMG_2776.jpeg",
+        "IMG_2778.jpeg",
+        "IMG_2889.jpeg",
+        "IMG_3176.jpeg",
+        "IMG_3782.jpeg",
+        "IMG_3785.jpeg",
+        "IMG_3960.jpeg",
+        "IMG_5146.jpeg",
+        "IMG_5298.jpeg",
+        "IMG_5299.jpeg",
+        "IMG_5301.jpeg",
+        "IMG_5915.jpeg",
+        "IMG_5916.jpeg",
+        "IMG_8240.jpeg",
+        "IMG_8591.jpeg",
+        "IMG_8945.jpeg",
+        "IMG_8946.jpeg"
+      ],
+      "count": 41
     },
     "full-yard-landscaping": {
-      "hasImages": false,
-      "images": [],
-      "count": 0
+      "hasImages": true,
+      "images": [
+        "166FE502-B25F-4844-9D6B-FDA65E0D7CCB.JPG",
+        "1CD827E7-89C7-4DC1-B04E-C2836EF993E4.JPG",
+        "322BB29E-1141-45B6-9D3F-6AA32D9A19F0.JPG",
+        "333F0F8D-5345-41E2-9A0B-B603EBEC0241.JPG",
+        "352241C7-6B17-4BE3-A614-9B6D7D5FCDF3.JPG",
+        "3836DC62-A947-4896-9070-99B2A798D97E.JPG",
+        "3FEEDD5B-9F81-44B4-8FB5-571F66850BE2.JPG",
+        "417214F6-207F-4101-88B5-546FEDAABA90.JPG",
+        "4527D721-A639-442A-A1BA-73955B224F05.JPG",
+        "47DC9DDD-822F-4B94-9FE8-94C24EDF2062.JPG",
+        "52CB8F85-6532-4A3E-881E-2BEC30607D60.JPG",
+        "541C4261-F0E6-4A17-8D85-D41E8208FB9B.JPG",
+        "55321E68-AF57-45ED-A265-F578416526A1.JPG",
+        "5B1DF15A-A05F-447A-AEC1-37B387D1A0D4.JPG",
+        "5C70F2EA-61DE-47D3-8654-0BC21370F92B.JPG",
+        "5F814A10-330B-4854-AB7C-79D074F5B027.JPG",
+        "692E6CB2-F613-47FC-B1CB-07C8E71751D3.JPG",
+        "6E266E65-EDCC-4544-A1A0-74D4139BDC65.JPG",
+        "720BF286-2051-4090-B781-FA948B605E30.JPG",
+        "738C657A-2D4C-4908-B575-826798793F5B.JPG",
+        "7F36245C-05C6-4A1C-996D-2F8B47FB25EE.JPG",
+        "8EDD1BD4-4916-4A8E-BF50-8E96265EFD41.JPG",
+        "A1ACBF6B-B384-4FBE-859A-CD3D948396C6.JPG",
+        "A2018860-024B-45FF-8C43-30ADFCAF2DBE.JPG",
+        "A632F26C-2A94-49FD-95EF-08CD54815FA6.JPG",
+        "AA482C9E-2FF5-4FCC-B0AF-E8164FE1B428.JPG",
+        "AB026A2E-5F82-474B-B8EA-C43D97A4CC10.JPG",
+        "B13807C4-45E0-4169-AEEE-D2012575D4CF.JPG",
+        "B2B6AE44-61E2-4EE4-9505-CF1C324CF1C8.JPG",
+        "B6A6B9A5-CF16-449E-8608-9229FEC19458.JPG",
+        "C546CDFA-AA9C-4C43-8EE4-D97EC624A7C7.JPG",
+        "C5B63CC8-438F-4790-9BC0-6043CB792BF5.JPG",
+        "C62B486F-D452-4E9A-B472-C0A275F2E355.JPG",
+        "D666D106-2B0B-4E2B-98FB-E42D1A3A787E.JPG",
+        "DD47DEE7-7962-4468-B486-F97EA608F267.JPG",
+        "E1B25816-8117-4A96-AE7E-59A06EB92F63.JPG",
+        "E9CBCE8B-65F9-48D8-BD53-59322F11D2F8.JPG",
+        "F8ED84EC-3E5E-4C55-9B37-00956EEDCAA3.JPG",
+        "FA6757ED-A21C-4B77-9030-3075D4AC8C3E.JPG",
+        "frontpage.png",
+        "optimized-105@1920.webp",
+        "optimized-eighty-five@1920.jpg",
+        "optimized-eighty-seven@1920.webp",
+        "optimized-fifty-four@1920.jpg",
+        "optimized-ninety-five@1920.webp",
+        "optimized-ninety-four@1920.webp",
+        "optimized-ninety@1920.jpg"
+      ],
+      "count": 47
     }
   },
-  "allImages": [],
-  "generatedAt": "2026-04-07T08:13:07.841Z"
+  "allImages": [
+    {
+      "src": "/gallery/softscaping-garden-design/009DC0BF-8493-41EA-9B58-2F95B2ADD3B2.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/0A80BDEC-2229-42DF-A3F5-CA7A3E1BC4A7.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/0BDF3C04-C8EF-4622-9D15-FDAA97313A6E.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/0D320616-1FEF-4D7C-8021-D2B1606C8DD5.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/101FAAB9-0BBB-4451-8F73-CE73BCC81A72.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/12908E65-443A-492E-8946-2706D150890D.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/1AAE8053-8F79-46EF-BC3C-F05E918D0772.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/1CD827E7-89C7-4DC1-B04E-C2836EF993E4.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/205561A4-8F04-4465-BC11-D682D7A742F6.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/2B406F1B-BDEB-47F1-8355-48642870A1E5.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/2B750FA7-F295-4EC9-A7E3-75FE8ED136F3.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/2F4A8E25-F2F5-4E14-96ED-A673EE0002DB.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/322BB29E-1141-45B6-9D3F-6AA32D9A19F0.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/333F0F8D-5345-41E2-9A0B-B603EBEC0241.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/3363A6E8-C37C-4BD4-9DEF-F2C2E38642F7.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/3836DC62-A947-4896-9070-99B2A798D97E.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/3D6DE164-33E5-40FA-A785-710E0B0B1CC9.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/3E0F51EF-9B85-4424-B339-CB25FC69FA19.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/417214F6-207F-4101-88B5-546FEDAABA90.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/41CA3AD7-68D8-4EF6-B2CC-B7BF7F66344B.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/4527D721-A639-442A-A1BA-73955B224F05.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/4EB0B6C9-A504-4C61-BFD4-CA731BBE9C0A.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/541C4261-F0E6-4A17-8D85-D41E8208FB9B.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/55321E68-AF57-45ED-A265-F578416526A1.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/5A986277-65FE-48EA-92D3-C11B9B0D73C0.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/5AAEC594-5DBD-4CDA-870D-AD8A6598BE4A.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/5B9A728E-697B-4109-B103-2085192B0A76.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/5CF4C221-2B54-4208-B44A-76ECD5261FF5.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/5F814A10-330B-4854-AB7C-79D074F5B027.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/600D01F4-7E83-407C-AF93-8EF8DD8EA28B.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/6775BDF4-7472-43E7-9FCC-F3EB23A0F293.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/6E266E65-EDCC-4544-A1A0-74D4139BDC65.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/720BF286-2051-4090-B781-FA948B605E30.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/738C657A-2D4C-4908-B575-826798793F5B.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/7A542B1C-8D96-48B6-8EF4-E701613C235B.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/7BB3ACD8-74EC-4AD7-AB63-988C847041BE.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/908868C7-16A9-4FF5-A351-41D49BC3C9E1.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/92749E30-1552-4C01-AB51-4E08AB53418A.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/AA482C9E-2FF5-4FCC-B0AF-E8164FE1B428.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/AE8E07A0-25CE-4E77-B850-D147B33E29DA.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/AEEC878F-82F8-49F7-B97A-DF5750F30597.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/B06A2E0E-7874-45FA-9CE8-F49AC9969C92.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/B13807C4-45E0-4169-AEEE-D2012575D4CF.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/B2B6AE44-61E2-4EE4-9505-CF1C324CF1C8.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/B6A6B9A5-CF16-449E-8608-9229FEC19458.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/BF614C63-B238-400C-9C05-0F613D63D3D9.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/C36018A3-76CB-4AD3-8AD2-51FE3D4ED89F.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/C5B63CC8-438F-4790-9BC0-6043CB792BF5.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/CA7B7D46-0C0A-4EFA-A536-DBD14607E5F8.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/CC34BBBF-382D-46C5-9033-0B365D05A507.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/D32092C3-502A-4F29-A495-565EC07AF941.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/D666D106-2B0B-4E2B-98FB-E42D1A3A787E.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/E9CBCE8B-65F9-48D8-BD53-59322F11D2F8.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/ECA5A5F4-77FB-4F00-B2E6-48BADEFC39BA.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/EDB06AE8-D652-4750-937D-9CFA09CF968F.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/F8ED84EC-3E5E-4C55-9B37-00956EEDCAA3.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/FCAA673B-6DC9-4477-A204-52E9D4CF9C6A.JPG",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/optimized-hundred@1920.webp",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/softscaping-garden-design/optimized-ninety-four@1920.webp",
+      "category": "softscaping-garden-design"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/03F4B17C-2C7E-421D-BE42-D896B0407287.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/04C99D5F-D03C-4596-B4B2-7CE6ABD536B5.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/0678EBD1-7F6F-417C-99F0-CD37A0510BD5.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/09E6F5BC-A7B5-4176-A3CE-F40C46C9A505.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/0A18DBBC-B981-4383-870F-0577A4F9CABD.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/0AF8E6D2-9069-4FF0-B1B9-534E3442570F.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/0C654206-13E3-4DB8-AB69-0315247B0A04.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/13DEB534-3FA0-428D-BFB5-1DF827FA6859.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/1716D4EB-59A3-45D1-AD10-904A4827F93D.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/1962337B-B3A9-4DBB-B35F-37BC233F8EF2.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/1DA75733-D3D8-41A5-9F5E-FCD29E659473.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/1EC63A95-6EC1-430A-8517-DEF09BE6FF2C.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/2038C1BF-4B9B-4E7F-9E88-1D340EFB1470.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/20A1A32A-FBE4-4904-9234-A0F9C2AAD069.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/24D558B2-6E24-4C52-8C5E-679A86AE124B.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/2852DF79-AA98-4B51-A44F-B2A59B93CBCF.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/2C9B6A68-9D5B-4C06-9ECE-C9CF3221EC8E.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/2F15ADDA-298C-4F1A-B3AD-1B8D4FF0EADC.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/3AE9D96C-84BB-4E79-BD76-5CC5D66F9E33.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/3D04C624-C2A0-4051-8C99-76B5AD65BA14.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/3E162537-4B91-47A6-BF52-84049C12F959.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/40E4D8B7-72B2-426C-9D6A-91B3D6AD7558.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/46149F63-BCCF-4D8E-A80B-25D147E861F4.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/47DC9DDD-822F-4B94-9FE8-94C24EDF2062.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/4BA6675C-A5B5-4808-91C6-28EA23967CF3.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/4D0061C8-A1E5-4DFA-8242-887FDE369D73.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/4F970ABD-7BB2-41E4-93E4-4BD3BAC0B9FB.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/4FB02742-AFB3-4066-8B9D-2CCE52C75761.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/511682C9-7F58-49EB-B267-9E6181A471C5.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/52449618-6EDC-4F93-805E-94844278FBC5.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/527BE456-754F-498D-B438-000A801A7B2E.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/52CB8F85-6532-4A3E-881E-2BEC30607D60.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/53D0D07B-90DB-47B7-B0E0-88398B8A9739.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/5628226D-6487-495B-9BFD-872C8C70D33F.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/5B1DF15A-A05F-447A-AEC1-37B387D1A0D4.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/5C70F2EA-61DE-47D3-8654-0BC21370F92B.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/61F5345F-DFA5-46BF-ADD5-010F53954D9A.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/65935ECD-C624-4C5F-8EEA-4EBFEDA823E0.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/664B3A02-0F12-4B34-9870-098366E491E5.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/696224B9-8A77-49AC-8759-DA06352A884E.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/6B37023A-4B69-4959-BDFF-6D1C0530C2B9.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/6B56AE38-3A6A-4400-83A8-8EE7AB84280B.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/6BCFFF2F-5D86-48D4-8A29-EBB611B1464E.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/6C5E80A1-77CF-434F-92A0-56C89E3F49C3.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/6E266E65-EDCC-4544-A1A0-74D4139BDC65.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/72D9CD86-6830-4220-AFAC-5CDD33F77361.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/76A577CE-C5B5-4755-B63E-65D175D0A411.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/789F2EF4-A28F-4AC9-9C9F-E8855CFCCCA2.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/7CA1878E-A824-4863-86C4-DD436DE27933.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/7D5C6BDA-1C50-4723-9654-EA31E60CD53C.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/7D7B09AA-FF70-41EB-B5F2-EFC560555935.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/7DAE4F5F-FECA-423F-94EB-D65F82FF1738.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/7F1C0FA2-1ED2-4F3A-B9EE-55E81115654E.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/7F36245C-05C6-4A1C-996D-2F8B47FB25EE.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/80E01691-7095-4BCB-9F09-7A6FDD7D470C.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/82E33BB4-B243-4B27-B132-2A00CF11DDBF.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/83476CDD-EE0C-4861-8F47-D0C403A32D7C.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/85C87791-9961-4788-9244-722969B4DA32.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/89E15794-6809-471D-86D1-C3D1D0365126.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/8EDD1BD4-4916-4A8E-BF50-8E96265EFD41.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/8FA3CBD1-12C0-485D-84B4-BB29D0635F2D.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/908868C7-16A9-4FF5-A351-41D49BC3C9E1.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/91CAC642-C54A-40F5-9B10-CD5889825531.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/92ABDEFB-1C8E-43F9-AEE1-032E589E0586.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/9443E058-0B78-43DE-B709-9270182D00BD.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/9592E04A-1685-4A58-AC5F-260444A969FD.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/978A27F8-F866-4FAF-9DCB-A48DBE48719C.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/98C410ED-34C7-4866-98FF-35C1DAA6319C.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/9C2507C0-248B-4D6F-A119-B1B303A44F20.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/A1ACBF6B-B384-4FBE-859A-CD3D948396C6.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/A2018860-024B-45FF-8C43-30ADFCAF2DBE.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/B1A65352-CF7F-4D11-A627-E930E6116DA5.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/B31FB05D-CDC3-421C-860A-BF2FA7EAF2EB.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/B586F881-7A94-46CD-BF5F-BE417E507D9D.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/B5888034-2E70-4ACF-BC32-CBE0DC3AF23D.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/BA48F192-C9DD-4622-B330-6B82F805C737.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/BB2AA2DB-8A76-4066-B5E7-4BE123EC5F43.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/BF7D9EED-5E9B-4E6F-BDCD-36370BD2E8BE.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/C2852D2C-C36A-4D0B-86A5-3BF64A41373A.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/C2DA5A13-CE40-4F73-AEFA-3B6048A088D4.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/C32686F1-36EA-4415-A17D-DA96BE3168F7.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/C585C22C-89FD-479B-98E6-B6F7636A59C0.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/CBF71C1E-F197-4C01-80BB-49BEB0968BE5.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/CF613BEE-A980-4674-B9FD-A330343F13AB.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/CFFC566A-7138-47FC-9B25-0E5761311917.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/D03D486F-CD7D-48D7-9D78-25E961ED4012.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/D15CCDE0-71F5-4645-BF1B-AB282A24E7BA.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/D2F91093-3C57-473E-B26A-0BEFA8BEB0B5.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/DD47DEE7-7962-4468-B486-F97EA608F267.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/DD5314F9-678B-4240-A711-301CBE1DB9EA.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/E0CBBB1C-7F21-4DB3-9B0E-F4DB467B3396.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/E1B25816-8117-4A96-AE7E-59A06EB92F63.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/E3B6F23F-BE26-4696-BCE1-B6182ECB5F91.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/E54A4C66-E34D-43F2-8F83-E9CD4A2D0CFB.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/E55D06C8-2335-43DA-99BE-0770A39274E1.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/E689B713-36E2-4002-B59D-04255EE63456.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/E9AC44BF-8AD8-4039-9A3B-671E33BA21D9.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/E9CBCE8B-65F9-48D8-BD53-59322F11D2F8.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/F1ED7232-85A8-43D0-903F-76B62FC41294.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/F2162FDC-6E75-4E0C-AA24-CCC7B7625B9C.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/F64ED343-9C59-4B47-AA2E-4F8BA9258D1D.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/F6980EEA-A1D9-4FF7-A9B3-4F7F489942D9.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/FA6757ED-A21C-4B77-9030-3075D4AC8C3E.JPG",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/optimized-eighty-two@1920.jpg",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/optimized-fifty-five@1920.jpg",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/optimized-forty-two@1920.webp",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/optimized-forty@1920.jpg",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/optimized-thirty-eight@1920.jpg",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/optimized-thirty-five@1920.jpg",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/optimized-thirty-nine@1920.jpg",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/optimized-thirty-six@1920.webp",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/optimized-twenty-one@1920.webp",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/optimized-twenty-six@1920.jpg",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/hardscaping-outdoor-living/optimized-twenty-three@1920.jpg",
+      "category": "hardscaping-outdoor-living"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/0102C2C7-4FBB-4E80-A957-E98B0191D0DF.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/0BC7A923-B1FC-49AA-AE86-18C7709A6233.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/0F07FA6D-CC7D-4BD5-9F50-D0F12A6887A7.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/10B54200-0BE5-423C-8689-027922CFFCB1.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/1929DD97-C369-4CD1-AB8B-E3E5D05077AC.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/1A2EE371-5387-49FD-B862-3204B66EE9FA.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/1FCAB932-6CFA-43FE-B4DB-D3B28AC2005E.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/2161E6CD-87BF-4E3A-AFE3-C8B943FED736.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/21747841-F032-4989-BA67-E04659FC20F0.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/31695F02-86F0-4D51-A390-26D059EF50CA.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/37298093-250A-4C4E-9DA7-A96FC0BA1B30.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/3AE72818-9A43-4015-9A59-A54D586E0F3D.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/40C09B12-F91B-4946-9D7D-2D6E529A54EB.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/4D2B62C0-8448-47FE-BEB8-19263033D9D0.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/4FCC03AC-EA6E-44FE-AF7A-9FD0D3F692A1.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/5195CE13-DC21-41AD-9558-0370353D5B82.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/58B35F60-95C5-473C-B08C-BCBE4795114A.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/59DDF9BA-5AFA-46F0-8D32-06B284360DBC.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/5B1BB625-263F-4156-AD3D-BF6103A8134C.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/64388E9E-BC42-468C-B7D4-C9E4A0E7CF5B.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/697F527B-A05F-431C-82DE-74AFB4C4C64D.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/721D7BE5-2875-4441-BA7C-02D923C141AD.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/759B032E-1EEF-4455-82CD-69BDAB2636E1.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/7D738CEF-2F3C-4ED2-960A-308BFCF904FE.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/7F4D89BB-173F-425A-B161-D37B2995183C.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/80DC1A0D-5A74-4A5B-A5A7-607B7CA7CBD8.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/83F45A8E-AEAD-41D0-A245-9E899E4E04CB.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/86556B2F-02FF-4F56-AC20-DF26F10CC450.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/879B82B3-D87C-49F0-A02C-83C0C15D9975.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/8851BA7B-F45C-4E5C-9B41-BC23965A0768.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/986740A5-D6D8-4907-B07E-48EC347F0B5F.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/9C9F8445-4E31-46AD-A9DF-39268E4ED939.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/9ED981DF-1FAF-4976-8731-532C8360FC86.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/A6BA1E01-48F5-4BBE-8505-EF40E7B9287F.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/AA8E7355-CBB0-497D-AF38-9B99B2F8700B.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/ACCDA700-53FF-4871-9FD5-E3A721CA5B90.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/AD3E1D3F-F33C-45EB-A1AA-4810EC849F09.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/B85B1863-2FB1-40A1-A228-A346A98FFBA6.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/CDFDFA47-12F3-46F8-9B27-836EB2E7AFFC.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/CEA61F68-7244-40AA-81DC-B454D12FC488.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/D01275DB-CAC5-4C45-9491-C4BC638C73A5.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/E724D324-C72F-4697-B0A5-21E162EE953A.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/EA24B5AD-EB4D-46F7-A983-BBCD4AAEE1CA.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/EEA06770-6067-4D70-A3D3-50A7BDAA1DB0.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/F1463F99-A841-42D2-BA77-979362A22DFD.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/F2988A61-9BD5-420F-BA8E-6FAE4CA06333.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/F93701E0-9153-4BB9-9EF4-FCB3E4DA9F31.JPG",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/grading-drainage-irrigation/optimized-forty-one@1920.jpg",
+      "category": "grading-drainage-irrigation"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/20180606_122034_IMG_0016.JPEG",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/20180606_122035_IMG_0017.JPEG",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/20180606_160614_IMG_0021.JPEG",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/20190822_123752.jpg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2328.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2329.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2330.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2331.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2333.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2334.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2335.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2336.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2337.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2338.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2339.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2340.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2398.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2400.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2424.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2664.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2665.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2666.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2773.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2774.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2776.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2778.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_2889.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_3176.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_3782.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_3785.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_3960.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_5146.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_5298.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_5299.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_5301.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_5915.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_5916.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_8240.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_8591.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_8945.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/calgary-lawn-services/IMG_8946.jpeg",
+      "category": "calgary-lawn-services"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/166FE502-B25F-4844-9D6B-FDA65E0D7CCB.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/1CD827E7-89C7-4DC1-B04E-C2836EF993E4.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/322BB29E-1141-45B6-9D3F-6AA32D9A19F0.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/333F0F8D-5345-41E2-9A0B-B603EBEC0241.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/352241C7-6B17-4BE3-A614-9B6D7D5FCDF3.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/3836DC62-A947-4896-9070-99B2A798D97E.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/3FEEDD5B-9F81-44B4-8FB5-571F66850BE2.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/417214F6-207F-4101-88B5-546FEDAABA90.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/4527D721-A639-442A-A1BA-73955B224F05.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/47DC9DDD-822F-4B94-9FE8-94C24EDF2062.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/52CB8F85-6532-4A3E-881E-2BEC30607D60.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/541C4261-F0E6-4A17-8D85-D41E8208FB9B.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/55321E68-AF57-45ED-A265-F578416526A1.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/5B1DF15A-A05F-447A-AEC1-37B387D1A0D4.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/5C70F2EA-61DE-47D3-8654-0BC21370F92B.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/5F814A10-330B-4854-AB7C-79D074F5B027.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/692E6CB2-F613-47FC-B1CB-07C8E71751D3.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/6E266E65-EDCC-4544-A1A0-74D4139BDC65.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/720BF286-2051-4090-B781-FA948B605E30.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/738C657A-2D4C-4908-B575-826798793F5B.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/7F36245C-05C6-4A1C-996D-2F8B47FB25EE.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/8EDD1BD4-4916-4A8E-BF50-8E96265EFD41.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/A1ACBF6B-B384-4FBE-859A-CD3D948396C6.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/A2018860-024B-45FF-8C43-30ADFCAF2DBE.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/A632F26C-2A94-49FD-95EF-08CD54815FA6.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/AA482C9E-2FF5-4FCC-B0AF-E8164FE1B428.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/AB026A2E-5F82-474B-B8EA-C43D97A4CC10.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/B13807C4-45E0-4169-AEEE-D2012575D4CF.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/B2B6AE44-61E2-4EE4-9505-CF1C324CF1C8.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/B6A6B9A5-CF16-449E-8608-9229FEC19458.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/C546CDFA-AA9C-4C43-8EE4-D97EC624A7C7.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/C5B63CC8-438F-4790-9BC0-6043CB792BF5.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/C62B486F-D452-4E9A-B472-C0A275F2E355.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/D666D106-2B0B-4E2B-98FB-E42D1A3A787E.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/DD47DEE7-7962-4468-B486-F97EA608F267.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/E1B25816-8117-4A96-AE7E-59A06EB92F63.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/E9CBCE8B-65F9-48D8-BD53-59322F11D2F8.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/F8ED84EC-3E5E-4C55-9B37-00956EEDCAA3.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/FA6757ED-A21C-4B77-9030-3075D4AC8C3E.JPG",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/frontpage.png",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/optimized-105@1920.webp",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/optimized-eighty-five@1920.jpg",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/optimized-eighty-seven@1920.webp",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/optimized-fifty-four@1920.jpg",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/optimized-ninety-five@1920.webp",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/optimized-ninety-four@1920.webp",
+      "category": "full-yard-landscaping"
+    },
+    {
+      "src": "/gallery/full-yard-landscaping/optimized-ninety@1920.jpg",
+      "category": "full-yard-landscaping"
+    }
+  ],
+  "generatedAt": "2026-05-17T00:53:14.533Z"
 }

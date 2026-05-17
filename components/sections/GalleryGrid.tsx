@@ -1,36 +1,99 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useCallback, useEffect } from "react";
 import Image from "next/image";
-import {
-  Dialog,
-  DialogContent,
-  DialogTitle,
-} from "@/components/ui/dialog";
+import { X, ChevronLeft, ChevronRight } from "lucide-react";
+import { MotionProvider, m, AnimatePresence, motionFeatures } from "@/lib/motion";
 
-const GALLERY_IMAGES = Array.from({ length: 16 }).map((_, i) => ({
-  src: `https://placehold.co/800x600/EDE8DF/A09080?text=Gallery+${i + 1}`,
-  alt: `[PLACEHOLDER] Gallery image ${i + 1}`,
-}));
+interface GalleryImage {
+  src: string;
+  category: string;
+}
 
-export function GalleryGrid() {
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+interface GalleryGridProps {
+  category?: string;
+}
+
+export function GalleryGrid({ category }: GalleryGridProps) {
+  const [images, setImages] = useState<GalleryImage[]>([]);
+  const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
+
+  useEffect(() => {
+    fetch("/gallery/gallery-manifest.json")
+      .then((res) => res.json())
+      .then((manifest) => {
+        const all: GalleryImage[] = manifest.allImages ?? [];
+        setImages(
+          category && category !== "all"
+            ? all.filter((img) => img.category === category)
+            : all
+        );
+      })
+      .catch(() => setImages([]));
+  }, [category]);
+
+  // Lock body scroll when lightbox is open
+  useEffect(() => {
+    if (selectedIndex !== null) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+    return () => { document.body.style.overflow = ""; };
+  }, [selectedIndex]);
+
+  const goNext = useCallback(() => {
+    setSelectedIndex((prev) =>
+      prev !== null && images.length > 0 ? (prev + 1) % images.length : null
+    );
+  }, [images.length]);
+
+  const goPrev = useCallback(() => {
+    setSelectedIndex((prev) =>
+      prev !== null && images.length > 0
+        ? (prev - 1 + images.length) % images.length
+        : null
+    );
+  }, [images.length]);
+
+  // Keyboard navigation
+  useEffect(() => {
+    if (selectedIndex === null) return;
+    const handler = (e: KeyboardEvent) => {
+      if (e.key === "ArrowRight") goNext();
+      else if (e.key === "ArrowLeft") goPrev();
+      else if (e.key === "Escape") setSelectedIndex(null);
+    };
+    window.addEventListener("keydown", handler);
+    return () => window.removeEventListener("keydown", handler);
+  }, [selectedIndex, goNext, goPrev]);
+
+  if (images.length === 0) {
+    return (
+      <div className="text-center py-20">
+        <p className="text-brand-muted font-sans text-lg">
+          Photos coming soon. Check back as we add our latest Calgary projects.
+        </p>
+      </div>
+    );
+  }
 
   return (
-    <>
-      <div className="columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
-        {GALLERY_IMAGES.map((img, i) => (
+    <MotionProvider features={motionFeatures}>
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-4 lg:gap-5">
+        {images.map((img, i) => (
           <button
-            key={i}
+            key={img.src}
             type="button"
-            onClick={() => setSelectedImage(img.src)}
-            className="block w-full break-inside-avoid rounded-2xl overflow-hidden group"
+            onClick={() => setSelectedIndex(i)}
+            className="block w-full rounded-xl overflow-hidden group"
           >
             <div className="relative aspect-[4/3]">
               <Image
                 src={img.src}
-                alt={img.alt}
+                alt={`${img.category.replace(/-/g, " ")} project in Calgary`}
                 fill
+                sizes="(max-width: 640px) 50vw, (max-width: 768px) 50vw, (max-width: 1024px) 33vw, 25vw"
                 className="object-cover group-hover:scale-105 transition-transform duration-300"
               />
             </div>
@@ -38,21 +101,64 @@ export function GalleryGrid() {
         ))}
       </div>
 
-      <Dialog open={!!selectedImage} onOpenChange={() => setSelectedImage(null)}>
-        <DialogContent className="max-w-4xl p-0 overflow-hidden bg-brand-dark border-none">
-          <DialogTitle className="sr-only">[PLACEHOLDER] Gallery Image</DialogTitle>
-          {selectedImage && (
-            <div className="relative aspect-[4/3]">
+      {/* Full-screen lightbox */}
+      <AnimatePresence>
+        {selectedIndex !== null && images[selectedIndex] && (
+          <m.div
+            key="lightbox"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            className="fixed inset-0 z-50 bg-black/95 flex items-center justify-center"
+            onClick={() => setSelectedIndex(null)}
+          >
+            <button
+              type="button"
+              onClick={() => setSelectedIndex(null)}
+              className="absolute top-4 right-4 z-10 text-white/70 hover:text-white p-2"
+              aria-label="Close lightbox"
+            >
+              <X className="h-7 w-7" />
+            </button>
+
+            <button
+              type="button"
+              onClick={(e) => { e.stopPropagation(); goPrev(); }}
+              className="absolute left-2 sm:left-4 z-10 text-white/70 hover:text-white p-2"
+              aria-label="Previous image"
+            >
+              <ChevronLeft className="h-8 w-8" />
+            </button>
+
+            <div
+              className="relative w-full h-full max-w-5xl max-h-[85vh] mx-4 sm:mx-8"
+              onClick={(e) => e.stopPropagation()}
+            >
               <Image
-                src={selectedImage}
-                alt="[PLACEHOLDER] Gallery image enlarged"
+                src={images[selectedIndex].src}
+                alt={`${images[selectedIndex].category.replace(/-/g, " ")} project in Calgary`}
                 fill
-                className="object-cover"
+                sizes="100vw"
+                className="object-contain"
               />
             </div>
-          )}
-        </DialogContent>
-      </Dialog>
-    </>
+
+            <button
+              type="button"
+              onClick={(e) => { e.stopPropagation(); goNext(); }}
+              className="absolute right-2 sm:right-4 z-10 text-white/70 hover:text-white p-2"
+              aria-label="Next image"
+            >
+              <ChevronRight className="h-8 w-8" />
+            </button>
+
+            <p className="absolute bottom-4 left-1/2 -translate-x-1/2 text-white/50 text-sm font-sans">
+              {selectedIndex + 1} / {images.length}
+            </p>
+          </m.div>
+        )}
+      </AnimatePresence>
+    </MotionProvider>
   );
 }

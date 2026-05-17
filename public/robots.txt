@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://tahalandscaping.ca
+
+# Sitemaps
+Sitemap: https://tahalandscaping.ca/sitemap.xml

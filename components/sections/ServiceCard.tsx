@@ -24,7 +24,7 @@ export function ServiceCard({ service }: ServiceCardProps) {
           <ArrowRight className="h-6 w-6 text-white opacity-0 group-hover:opacity-100 transition-opacity" />
         </div>
       </div>
-      <p className="font-sans font-medium text-brand-text text-[15px] mt-3">{service.name}</p>
+      <p className="font-sans font-medium text-brand-text text-[15px] mt-3 text-center">{service.name}</p>
     </Link>
   );
 }
