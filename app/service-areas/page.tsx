@@ -3,6 +3,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { FullYardCTA } from "@/components/sections/FullYardCTA";
 import { ContactSectionDark } from "@/components/sections/ContactSectionDark";
 import { SuburbCard } from "@/components/sections/SuburbCard";
+import { ServiceRadiusMap } from "@/components/sections/ServiceRadiusMap";
 
 export const metadata: Metadata = {
   title: "Service Areas | Taha Landscaping Calgary",
@@ -11,10 +12,13 @@ export const metadata: Metadata = {
 };
 
 const SUBURBS = [
+  // Calgary Neighbourhoods
   "Aspen Woods", "Bridgeland", "Cranston", "Dalhousie", "Elbow Park",
   "Fairview", "Garrison Woods", "Hillhurst", "Inglewood", "Kensington",
   "Lake Bonavista", "Mount Royal", "Panorama Hills", "Ramsay", "Signal Hill",
   "Tuscany", "University District", "Varsity", "West Springs", "Woodbine",
+  // Surrounding Communities
+  "Airdrie", "Okotoks", "Cochrane", "Chestermere",
 ].map((name) => ({ name, slug: name.toLowerCase().replace(/\s+/g, "-") }));
 
 export default function ServiceAreasPage() {
@@ -39,22 +43,14 @@ export default function ServiceAreasPage() {
           </div>
         </section>
 
-        {/* Google Maps Embed */}
+        {/* Service Radius Map */}
         <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-14">
           <div className="aspect-[16/9] sm:aspect-[16/7] rounded-2xl overflow-hidden border border-brand-border">
-            {/* Replace the placeholder below with your Google Maps embed iframe */}
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d160841.72661089944!2d-114.2361484!3d51.0276832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537170039f843fd5%3A0x266d3bb1b652b63a!2sCalgary%2C%20AB!5e0!3m2!1sen!2sca!4v1700000000000!5m2!1sen!2sca"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Taha Landscaping service area in Calgary"
-              suppressHydrationWarning
-            />
+            <ServiceRadiusMap />
           </div>
+          <p className="text-center text-brand-muted font-sans text-sm mt-4">
+            We service all areas within 50 km of our location in NE Calgary
+          </p>
         </section>
 
         {/* Suburb Links */}

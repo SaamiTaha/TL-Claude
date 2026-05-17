@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import { Footer } from "@/components/layout/Footer";
 import { ContactForm } from "./ContactForm";
+import { ContactMap } from "./ContactMap";
 
 interface ContactSectionDarkProps {
   flush?: boolean;
@@ -80,16 +81,9 @@ export function ContactSectionDark({ flush }: ContactSectionDarkProps) {
           </div>
         </div>
 
-        {/* Google Maps embed — replace src with Maps Embed API URL using your API key */}
-        {/* Example: https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Taha+Landscaping,Calgary,AB */}
+        {/* Google Maps embed */}
         <div className="mt-16 rounded-xl overflow-hidden border border-white/10 aspect-[21/9]">
-          <div className="w-full h-full bg-white/5 flex items-center justify-center">
-            <div className="text-center">
-              <MapPin className="h-8 w-8 text-brand-terracotta mx-auto" />
-              <p className="text-white/40 font-sans text-sm mt-3">Google Maps Embed</p>
-              <p className="text-white/25 font-sans text-xs mt-1">Add NEXT_PUBLIC_GOOGLE_MAPS_KEY to .env</p>
-            </div>
-          </div>
+          <ContactMap />
         </div>
       </div>
 
