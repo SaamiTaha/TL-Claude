@@ -4,10 +4,10 @@ interface BlobImage {
   filename: string;
   url: string;
   size: number;
-  category: "hero" | "cta" | "gallery";
+  category: string;
 }
 
-const manifest: BlobImage[] = blobManifest;
+const manifest = blobManifest as BlobImage[];
 
 export function getBlobUrl(filename: string): string | null {
   const image = manifest.find((img) => img.filename === filename);
