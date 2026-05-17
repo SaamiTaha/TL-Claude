@@ -3,7 +3,7 @@ import { Navbar } from "@/components/layout/Navbar";
 import { FullYardCTA } from "@/components/sections/FullYardCTA";
 import { ContactSectionDark } from "@/components/sections/ContactSectionDark";
 import { SuburbCard } from "@/components/sections/SuburbCard";
-import { ServiceRadiusMap } from "@/components/sections/ServiceRadiusMap";
+import { ServiceAreaMap } from "@/components/sections/ServiceAreaMap";
 
 export const metadata: Metadata = {
   title: "Service Areas | Taha Landscaping Calgary",
@@ -43,13 +43,13 @@ export default function ServiceAreasPage() {
           </div>
         </section>
 
-        {/* Service Radius Map */}
+        {/* Service Area Map */}
         <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-14">
           <div className="aspect-[16/9] sm:aspect-[16/7] rounded-2xl overflow-hidden border border-brand-border">
-            <ServiceRadiusMap />
+            <ServiceAreaMap />
           </div>
           <p className="text-center text-brand-muted font-sans text-sm mt-4">
-            We service all areas within 50 km of our location in NE Calgary
+            We service all areas within 50 km of Calgary
           </p>
         </section>
 
