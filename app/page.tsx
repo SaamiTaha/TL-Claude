@@ -31,8 +31,10 @@ function LocalBusinessSchema() {
     email: "tahalandscaping@hotmail.com",
     address: {
       "@type": "PostalAddress",
+      streetAddress: "515a 36 Ave NE",
       addressLocality: "Calgary",
       addressRegion: "AB",
+      postalCode: "T2E 6S3",
       addressCountry: "CA",
     },
     geo: {

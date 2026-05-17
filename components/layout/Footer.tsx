@@ -71,7 +71,7 @@ export function Footer() {
               Contact
             </h4>
             <address className="not-italic text-white/60 text-[15px] space-y-2.5">
-              <p>Calgary, AB</p>
+              <p>515a 36 Ave NE<br />Calgary, AB T2E 6S3</p>
               <p>
                 <Link href="tel:4038606470" className="hover:text-white transition-colors">
                   403-860-6470
