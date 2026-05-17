@@ -33,8 +33,6 @@ export function Testimonials({ count = 3 }: TestimonialsProps) {
         </h2>
       </div>
 
-      {/* Google Reviews widget placeholder — replace with Elfsight or GBP embed */}
-
       <div className={`grid grid-cols-1 ${count >= 3 ? "md:grid-cols-3" : "md:grid-cols-2"} gap-8 mt-14`}>
         {items.map((testimonial) => (
           <div key={testimonial.name} className="bg-brand-surface rounded-xl p-8 border border-brand-border">

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import blobManifest from "@/public/blob-uploads.json";
+import galleryManifest from "@/public/gallery/gallery-manifest.json";
 
 interface ServicePortfolioStripProps {
   categorySlug: string;
@@ -8,14 +8,13 @@ interface ServicePortfolioStripProps {
 }
 
 export function ServicePortfolioStrip({ categorySlug, categoryName }: ServicePortfolioStripProps) {
-  const manifest = blobManifest as Array<{
-    filename: string;
-    url: string;
-    category: string;
-  }>;
+  const manifest = galleryManifest as {
+    categories: Record<string, { hasImages: boolean; images: string[]; count: number }>;
+    allImages: Array<{ src: string; category: string }>;
+  };
 
-  const images = manifest
-    .filter((img) => img.category === "gallery" && img.filename.includes(categorySlug))
+  const images = manifest.allImages
+    .filter((img) => img.category === categorySlug)
     .slice(0, 8);
 
   return (
@@ -37,7 +36,7 @@ export function ServicePortfolioStrip({ categorySlug, categoryName }: ServicePor
           images.map((img, i) => (
             <div key={i} className="relative aspect-[4/3] rounded-xl overflow-hidden group">
               <Image
-                src={img.url}
+                src={img.src}
                 alt={`${categoryName} project in Calgary by Taha Landscaping`}
                 fill
                 sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
