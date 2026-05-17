@@ -11,6 +11,7 @@ const SERVICE_RADIUS_KM = 50;
 
 export function ServiceAreaMap() {
   const mapContainer = useRef<HTMLDivElement>(null);
+  const mapInstance = useRef<any>(null);
 
   useEffect(() => {
     if (!mapContainer.current) return;
@@ -22,13 +23,18 @@ export function ServiceAreaMap() {
     ]).then(([L]) => {
       if (!mapContainer.current) return;
 
-      // Clear previous map if it exists
-      mapContainer.current.innerHTML = "";
+      // Destroy existing map if it exists
+      if (mapInstance.current) {
+        mapInstance.current.remove();
+        mapInstance.current = null;
+      }
 
       const map = L.map(mapContainer.current).setView(
         [CALGARY_CENTER.lat, CALGARY_CENTER.lng],
         9
       );
+
+      mapInstance.current = map;
 
       // Add OpenStreetMap tiles
       L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
@@ -39,14 +45,14 @@ export function ServiceAreaMap() {
 
       // Draw 50km radius circle
       L.circle([CALGARY_CENTER.lat, CALGARY_CENTER.lng], {
-        radius: SERVICE_RADIUS_KM * 1000, // Convert km to meters
+        radius: SERVICE_RADIUS_KM * 1000,
         color: "#16A34A",
         fillColor: "#16A34A",
         fillOpacity: 0.15,
         weight: 2,
       }).addTo(map);
 
-      // Constrain Leaflet z-index to stay below navbar (z-50 = 50*4px)
+      // Constrain Leaflet z-index to stay below navbar
       const style = document.createElement("style");
       style.textContent = `
         .leaflet-pane { z-index: 1 !important; }
@@ -54,6 +60,13 @@ export function ServiceAreaMap() {
       `;
       document.head.appendChild(style);
     });
+
+    return () => {
+      if (mapInstance.current) {
+        mapInstance.current.remove();
+        mapInstance.current = null;
+      }
+    };
   }, []);
 
   return <div ref={mapContainer} className="w-full h-full relative z-10" />;
