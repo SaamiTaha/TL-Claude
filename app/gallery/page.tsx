@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { Navbar } from "@/components/layout/Navbar";
 import { FullYardCTA } from "@/components/sections/FullYardCTA";
 import { ContactSectionDark } from "@/components/sections/ContactSectionDark";
@@ -30,7 +31,9 @@ export default function GalleryPage() {
         </section>
 
         <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 pb-20">
-          <GalleryTabs />
+          <Suspense fallback={<div className="h-96 bg-brand-surface rounded-lg animate-pulse" />}>
+            <GalleryTabs />
+          </Suspense>
         </section>
 
         <FullYardCTA variant="full" />
