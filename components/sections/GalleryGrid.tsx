@@ -4,6 +4,7 @@ import { useState, useCallback, useEffect } from "react";
 import Image from "next/image";
 import { X, ChevronLeft, ChevronRight } from "lucide-react";
 import { MotionProvider, m, AnimatePresence, motionFeatures } from "@/lib/motion";
+import { galleryManifest } from "@/lib/gallery-manifest";
 import posthog from "posthog-js";
 
 interface GalleryImage {
@@ -20,17 +21,12 @@ export function GalleryGrid({ category }: GalleryGridProps) {
   const [selectedIndex, setSelectedIndex] = useState<number | null>(null);
 
   useEffect(() => {
-    fetch("/gallery/gallery-manifest.json")
-      .then((res) => res.json())
-      .then((manifest) => {
-        const all: GalleryImage[] = manifest.allImages ?? [];
-        setImages(
-          category && category !== "all"
-            ? all.filter((img) => img.category === category)
-            : all
-        );
-      })
-      .catch(() => setImages([]));
+    const all: GalleryImage[] = galleryManifest.allImages ?? [];
+    setImages(
+      category && category !== "all"
+        ? all.filter((img) => img.category === category)
+        : all
+    );
   }, [category]);
 
   // Lock body scroll when lightbox is open

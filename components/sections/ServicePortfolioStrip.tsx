@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import fs from "fs";
-import path from "path";
+import blobManifest from "@/public/blob-uploads.json";
 
 interface ServicePortfolioStripProps {
   categorySlug: string;
@@ -9,17 +8,15 @@ interface ServicePortfolioStripProps {
 }
 
 export function ServicePortfolioStrip({ categorySlug, categoryName }: ServicePortfolioStripProps) {
-  let images: string[] = [];
+  const manifest = blobManifest as Array<{
+    filename: string;
+    url: string;
+    category: string;
+  }>;
 
-  try {
-    const galleryPath = path.join(process.cwd(), "public", "gallery", categorySlug);
-    if (fs.existsSync(galleryPath)) {
-      const files = fs.readdirSync(galleryPath).filter((f) => /\.(jpg|jpeg|png|webp)$/i.test(f));
-      images = files.slice(0, 8);
-    }
-  } catch (error) {
-    console.error(`Error reading gallery images for ${categorySlug}:`, error);
-  }
+  const images = manifest
+    .filter((img) => img.category === "gallery" && img.filename.includes(categorySlug))
+    .slice(0, 8);
 
   return (
     <section className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-20">
@@ -40,7 +37,7 @@ export function ServicePortfolioStrip({ categorySlug, categoryName }: ServicePor
           images.map((img, i) => (
             <div key={i} className="relative aspect-[4/3] rounded-xl overflow-hidden group">
               <Image
-                src={`/gallery/${categorySlug}/${img}`}
+                src={img.url}
                 alt={`${categoryName} project in Calgary by Taha Landscaping`}
                 fill
                 sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
