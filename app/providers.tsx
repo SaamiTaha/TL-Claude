@@ -4,6 +4,7 @@ import posthog from 'posthog-js'
 import { PostHogProvider } from 'posthog-js/react'
 import { usePathname, useSearchParams } from 'next/navigation'
 import { useEffect, Suspense } from 'react'
+import { CallCTABanner } from '@/components/layout/CallCTABanner'
 
 function PostHogPageView() {
   const pathname = usePathname()
@@ -33,6 +34,7 @@ if (typeof window !== 'undefined') {
 export function Providers({ children }: { children: React.ReactNode }) {
   return (
     <PostHogProvider client={posthog}>
+      <CallCTABanner />
       <Suspense fallback={null}>
         <PostHogPageView />
       </Suspense>

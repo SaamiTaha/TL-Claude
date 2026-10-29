@@ -35,7 +35,7 @@ export function Navbar() {
 
   return (
     <MotionProvider features={motionFeatures}>
-      <header className="sticky top-0 z-50 bg-brand-bg/95 backdrop-blur-sm border-b border-brand-border">
+      <header className="sticky top-10 z-40 bg-brand-bg/95 backdrop-blur-sm border-b border-brand-border">
         <nav className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center">
