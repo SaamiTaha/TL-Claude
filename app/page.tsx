@@ -11,22 +11,26 @@ import { ProcessSteps } from "@/components/sections/ProcessSteps";
 import { FAQ, FAQSchema } from "@/components/sections/FAQ";
 import { ContactSectionDark } from "@/components/sections/ContactSectionDark";
 import { Navbar } from "@/components/layout/Navbar";
+import { SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Landscaping Calgary | Taha Landscaping",
   description:
     "Taha Landscaping is Calgary\u2019s premier landscaping company. 23+ years delivering luxury landscape design, hardscaping, softscaping, and full yard transformations. Licensed, insured, warranty-backed. Get a free quote today.",
+  verification: {
+    google: "P5oVsW25AF-2BMsxb3HW1C9uFOxGIRdcTeD7w0AOtQU",
+  },
 };
 
 function LocalBusinessSchema() {
   const schema = {
     "@context": "https://schema.org",
     "@type": "LocalBusiness",
-    "@id": "https://tahalandscaping.ca/#business",
+    "@id": `${SITE_URL}/#business`,
     name: "Taha Landscaping",
     description:
       "Premium landscaping company in Calgary, Alberta. Full yard landscaping, hardscaping, softscaping, grading, drainage, and irrigation services for residential and commercial properties.",
-    url: "https://tahalandscaping.ca",
+    url: SITE_URL,
     telephone: "+1-403-860-6470",
     email: "tahalandscaping@hotmail.com",
     address: {
@@ -62,7 +66,7 @@ function LocalBusinessSchema() {
       reviewCount: "87",
       bestRating: "5",
     },
-    image: "https://tahalandscaping.ca/hero-calgary-landscaping.jpg",
+    image: `${SITE_URL}/hero-calgary-landscaping.webp`,
     sameAs: [],
   };
 

@@ -199,7 +199,7 @@ Before deploying:
    - [ ] Do NOT commit API keys to GitHub
 
 3. **After Deployment**
-   - [ ] Visit production URL (https://tahalandscaping.ca)
+   - [ ] Visit production URL (https://www.tahalandscaping.com)
    - [ ] Test hero image loads
    - [ ] Test CTA section loads
    - [ ] Test form submission works

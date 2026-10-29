@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { SuburbCard } from "./SuburbCard";
 
-const CALGARY_NEIGHBORHOODS = [
+export const CALGARY_NEIGHBORHOODS = [
   { name: "Aspen Woods", slug: "aspen-woods" },
   { name: "Elbow Park", slug: "elbow-park" },
   { name: "Upper Mount Royal", slug: "upper-mount-royal" },
@@ -19,7 +19,7 @@ const CALGARY_NEIGHBORHOODS = [
   { name: "Altadore", slug: "altadore" },
 ];
 
-const SURROUNDING_AREAS = [
+export const SURROUNDING_AREAS = [
   { name: "Airdrie", slug: "airdrie" },
   { name: "Okotoks", slug: "okotoks" },
   { name: "Cochrane", slug: "cochrane" },

@@ -4,6 +4,7 @@ import { FullYardCTA } from "@/components/sections/FullYardCTA";
 import { ContactSectionDark } from "@/components/sections/ContactSectionDark";
 import { SuburbCard } from "@/components/sections/SuburbCard";
 import { ServiceAreaMap } from "@/components/sections/ServiceAreaMap";
+import { SERVICE_AREAS } from "@/lib/service-areas";
 
 export const metadata: Metadata = {
   title: "Service Areas | Taha Landscaping Calgary",
@@ -11,15 +12,7 @@ export const metadata: Metadata = {
     "Taha Landscaping serves Calgary and surrounding communities. Find your neighbourhood and explore our full range of landscaping services.",
 };
 
-const SUBURBS = [
-  // Calgary Neighbourhoods
-  "Aspen Woods", "Bridgeland", "Cranston", "Dalhousie", "Elbow Park",
-  "Fairview", "Garrison Woods", "Hillhurst", "Inglewood", "Kensington",
-  "Lake Bonavista", "Mount Royal", "Panorama Hills", "Ramsay", "Signal Hill",
-  "Tuscany", "University District", "Varsity", "West Springs", "Woodbine",
-  // Surrounding Communities
-  "Airdrie", "Okotoks", "Cochrane", "Chestermere",
-].map((name) => ({ name, slug: name.toLowerCase().replace(/\s+/g, "-") }));
+const SUBURBS = SERVICE_AREAS;
 
 export default function ServiceAreasPage() {
   return (
